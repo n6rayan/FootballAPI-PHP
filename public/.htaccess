@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+AuthName "Login"
+AuthUserFile /var/www/.htpasswd
+AuthType Basic
+Require valid-user

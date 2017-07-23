@@ -1,0 +1,17 @@
+{
+  "require": {
+    "slim/slim": "^3.0",
+    "firebase/php-jwt": "^5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Database\\": "Database/",
+      "Team\\": "Teams/",
+      "Teams\\TeamManager\\": "Teams/TeamManager/",
+      "Teams\\TeamSelector\\": "Teams/TeamSelector/",
+      "Google\\": "Google/",
+      "Stadiums\\StadiumManager\\": "Stadiums/StadiumManager/"
+    }
+  }
+}
